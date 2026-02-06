@@ -10,6 +10,8 @@ module com.example.calendarioentrenamiento {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires com.fasterxml.jackson.datatype.jsr310;
+    requires com.fasterxml.jackson.databind;
 
     opens com.example.calendarioentrenamiento to javafx.fxml;
     exports com.example.calendarioentrenamiento;
